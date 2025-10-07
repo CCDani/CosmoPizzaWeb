@@ -38,7 +38,7 @@ header {
 h1 {
     font-family: 'Orbitron', sans-serif;
     color: #fca311;
-    font-size: 1em;
+    font-size: 2em;
     margin: 0;
 }
 
@@ -187,5 +187,6 @@ footer {
 .flag-blue  { color: #00519E; }
 
 .flag-yellow{ color: #FFCD00; }
+
 
 
