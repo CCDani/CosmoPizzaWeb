@@ -61,7 +61,10 @@ h2 {
 
 /* Estilos para el menú de navegación */
 .page-nav {
-    text-align: center;
+    display: flex; /* Activa el modo flexible */
+    justify-content: center; /* Centra los botones horizontalmente */
+    flex-wrap: wrap; /* PERMITE que los botones bajen a otra línea si no hay espacio */
+    gap: 15px; /* Crea un espacio uniforme entre los botones */
     margin-bottom: 50px;
 }
 
@@ -70,7 +73,7 @@ h2 {
     color: #e0e0e0;
     text-decoration: none;
     font-size: 1.2em;
-    margin: 0 15px;
+    margin: 0; /* Eliminamos el margen anterior para que no interfiera */
     padding: 10px 15px;
     border: 1px solid #fca311;
     border-radius: 20px;
@@ -182,4 +185,5 @@ footer {
 .flag-white { color: #FFFFFF; }
 .flag-red   { color: #CE2B37; }
 .flag-blue  { color: #00519E; }
+
 .flag-yellow{ color: #FFCD00; }
